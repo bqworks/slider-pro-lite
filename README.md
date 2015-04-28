@@ -1,1 +1,0 @@
-# slider-pro-lite-wp
