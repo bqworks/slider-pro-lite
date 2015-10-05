@@ -2,8 +2,8 @@
 Contributors: bqworks
 Tags: slider pro, responsive slider, touch slider, slider, images, image slider, plugin, widget, wordpress slider, responsive wordpress slider, shortcode, slider plugin, touch swipe
 Requires at least: 3.6
-Tested up to: 4.1
-Stable tag: 1.0
+Tested up to: 4.3.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -112,3 +112,6 @@ When you select an image from the Media Library, in the right columns, under 'AT
 
 = 1.0 =
 * release of the lite version
+
+= 1.1 =
+* fixed some compatibility issues with WordPress 4.3
