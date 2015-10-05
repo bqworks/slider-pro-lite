@@ -2,7 +2,7 @@
 
 /*
 	Plugin Name: Slider Pro Lite
-	Plugin URI:  http://bqworks.net/slider-pro/
+	Plugin URI:  http://bqworks.com/slider-pro/
 	Description: Elegant and professional sliders. The lite version.
 	Version:     1.1.0
 	Author:      bqworks
