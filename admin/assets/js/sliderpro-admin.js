@@ -77,12 +77,15 @@
 			this.initSlides();
 
 			if ( parseInt( sp_js_vars.id, 10 ) !== -1 ) {
-				this.loadSliderData();
+				this.loadSliderData( function() {
+					that.checkSlideImageSize();
+				});
 			}
 
 			$( 'form' ).on( 'submit', function( event ) {
 				event.preventDefault();
 				that.saveSlider();
+				that.checkSlideImageSize();
 			});
 
 			$( '.preview-slider' ).on( 'click', function( event ) {
@@ -173,7 +176,7 @@
 		 *
 		 * @since 1.0.0
 		 */
-		loadSliderData: function() {
+		loadSliderData: function( callback ) {
 			var that = this;
 
 			$( '.slide-spinner' ).css( { 'display': 'inline-block', 'visibility': 'visible' } );
@@ -207,6 +210,8 @@
 					});
 
 					$( '.slide-spinner' ).css( { 'display': '', 'visibility': '' } );
+
+					callback();
 				}
 			});
 		},
@@ -621,6 +626,8 @@
 
 							that.initSlide( slide, { mainImage: images[ index ], thumbnail: {}, caption: images[ index ][ 'caption' ], layers: {}, html: '', settings: {} } );
 						});
+
+						SliderProAdmin.checkSlideImageSize();
 					}
 				});
 			});
@@ -675,6 +682,44 @@
 					image.css( { width: '100%', height: 'auto' } );
 				}
 			});
+		},
+
+		/**
+		 * Check the size of the images and, if they are smaller than the size
+		 * of the slider, display a warning.
+		 *
+		 * Only check images that have a non-zero width and height. Skip slides that
+		 * have dynamic images or images from outside the Media Library.
+		 *
+		 * @since 1.3.0
+		 */
+		checkSlideImageSize: function( images ) {
+			if ( $( '.image-size-warning' ).length === 0 ) {
+				return;
+			}
+
+			var showWarning = false,
+				sliderWidth = $( '.sidebar-settings' ).find( '.setting[name="width"]' ).val(),
+				sliderHeight = $( '.sidebar-settings' ).find( '.setting[name="height"]' ).val();
+
+			$.each( this.slides, function( index, slide ) {
+				var image = slide.getData( 'mainImage' );
+
+				if ( parseInt( image[ 'main_image_width' ], 10 ) === 0 || parseInt( image[ 'main_image_height' ], 10 ) === 0 ) {
+					return;
+				}
+				
+				if ( ( isNaN( sliderWidth ) === false && parseInt( image[ 'main_image_width' ], 10 ) < parseInt( sliderWidth, 10 ) ) ||
+					( isNaN( sliderHeight ) === false && parseInt( image[ 'main_image_height' ], 10 ) < parseInt( sliderHeight, 10 ) ) ) {
+					showWarning = true;
+				}
+			} );
+
+			if ( showWarning === true ) {
+				$( '.image-size-warning' ).css( 'display', 'block' );
+			} else {
+				$( '.image-size-warning' ).css( 'display', '' );
+			}
 		}
 	};
 
@@ -725,6 +770,8 @@
 					that.setData( 'mainImage', { main_image_id: image.id, main_image_source: image.url, main_image_alt: image.alt, main_image_title: image.title, main_image_width: image.width, main_image_height: image.height } );
 					that.setData( 'caption', image.caption );
 					that.updateSlidePreview();
+
+					SliderProAdmin.checkSlideImageSize();
 				});
 			});
 
