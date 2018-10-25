@@ -211,7 +211,7 @@ Single slider page
 
 /* Add slide button
 --------------------------------------------------*/
-.slider-pro-admin .add-slide {
+.sliderpro-admin .add-slide {
 	float: left;
 	overflow: hidden;
 	margin: 10px 0 180px;
