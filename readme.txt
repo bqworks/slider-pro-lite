@@ -2,8 +2,8 @@
 Contributors: bqworks
 Tags: slider pro, responsive slider, touch slider, slider, images, image slider, plugin, widget, wordpress slider, responsive wordpress slider, shortcode, slider plugin, touch swipe
 Requires at least: 3.6
-Tested up to: 4.6
-Stable tag: 1.2
+Tested up to: 5.0
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -110,11 +110,16 @@ When you select an image from the Media Library, in the right columns, under 'AT
 
 == Changelog ==
 
-= 1.0 =
-* release of the lite version
+= 1.3 =
+* fix compatibility with Gutenberg
+* display a warning if the image size is smaller than the slide size
+* other fixes and improvements
+
+= 1.2 =
+* fixed missing panel arrows in admin area
 
 = 1.1 =
 * fixed some compatibility issues with WordPress 4.3
 
-= 1.2 =
-* fixed missing panel arrows in admin area
+= 1.0 =
+* release of the lite version
