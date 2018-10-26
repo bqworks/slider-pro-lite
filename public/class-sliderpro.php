@@ -450,7 +450,7 @@ class BQW_SliderPro_Lite {
 		$styles_warning = '<div class="sp-styles-warning" style="width: 450px; background-color: #FFF; color: #F00; border: 1px solid #F00; padding: 10px; font-size: 14px;">
 			<span style="font-weight: bold;">Warning: The stylesheets were not loaded!</span> 
 			You will need to change the <i>Load stylesheets</i> setting from <i>Automatically</i> to <i>On homepage</i> or <i>On all pages</i>. 
-			You can set that <a style="text-decoration: underline; color: #F00;" href="' . admin_url( 'admin.php?page=sliderpro-settings' ) . '">here</a>.
+			You can set that <a style="text-decoration: underline; color: #F00;" href="' . admin_url( 'admin.php?page=sliderpro-lite-settings' ) . '">here</a>.
 			</div>';
 
 		// If styles were not checked, check them now.
