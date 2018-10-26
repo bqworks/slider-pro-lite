@@ -688,8 +688,7 @@
 		 * Check the size of the images and, if they are smaller than the size
 		 * of the slider, display a warning.
 		 *
-		 * Only check images that have a non-zero width and height. Skip slides that
-		 * have dynamic images or images from outside the Media Library.
+		 * Only check images that have a non-zero width and height.
 		 *
 		 * @since 1.3.0
 		 */
