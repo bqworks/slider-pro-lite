@@ -1,6 +1,6 @@
 === Slider Pro ===
 Contributors: bqworks
-Tags: slider pro, responsive slider, touch slider, slider, images, image slider, plugin, widget, wordpress slider, responsive wordpress slider, shortcode, slider plugin, touch swipe
+Tags: slider, images, responsive slider, touch slider, slider plugin
 Requires at least: 3.6
 Tested up to: 5.0
 Stable tag: 1.3
