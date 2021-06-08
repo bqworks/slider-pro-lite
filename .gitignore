@@ -13,3 +13,4 @@ Icon
 
 *.sublime-project
 *.sublime-workspace
+/public/assets/.DS_Store
