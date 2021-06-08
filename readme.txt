@@ -37,7 +37,7 @@ Available features in the lite version:
 * No ads
 
 
-If you need more features or simply want to support the development of the Slider Pro plugin, you can upgrade to the full version. You can read more about the full version of [Slider Pro](http://bqworks.com/slider-pro/) at [http://bqworks.com/slider-pro/](http://bqworks.com/slider-pro/).
+If you need more features or simply want to support the development of the Slider Pro plugin, you can upgrade to the full version. You can read more about the full version of [Slider Pro](http://bqworks.net/slider-pro/) at [http://bqworks.net/slider-pro/](http://bqworks.net/slider-pro/).
 
 Additional features in the full version:
 
