@@ -1,10 +1,8 @@
 <div class="wrap sliderpro-admin sliderpro-upgrade">
 	<h2><?php _e( 'Upgrade to Full Version', 'slider-pro-lite' ); ?></h2>
-    <p>If you need more features or simply want to support the development of the Slider Pro plugin, you can upgrade to the full version.</p>
+    <p>If you need more features, you can upgrade to the full version, which is now free and available for download at <a href="http://bqworks.net/slider-pro/">http://bqworks.net/slider-pro/</a>.</p>
     
-    <p><a href="http://codecanyon.net/item/slider-pro-responsive-wordpress-slider-plugin/253501">Buy the full version for only $30 &rarr;</a></p>
-    
-    <p>Some of the available features are:</p>
+    <p>Some of the features available in the full version are:</p>
     <ul>
         <li>Animated and static layers, which can contain text, images or any HTML content</li>
         <li>Load images and content automatically, from posts, galleries and Flickr</li>
@@ -21,9 +19,4 @@
         <li>Breakpoints for changing the slider's settings at different screen sizes</li>
         <li>Action and filter hooks</li>
     </ul>
-    
-    <p>You can see some examples and read more about the available features at <a href="http://bqworks.net/slider-pro/">http://bqworks.net/slider-pro/</a>.</p>
-    <p>Also, you can check out the <a href="https://www.youtube.com/watch?v=Hd54x3GMFlA&list=PLh-6IaZNuPo4MHvfzrTovXRuU7WKXkfWh">video tutorials</a> to understand better how the plugin works.</p>
-    
-    <p><a href="http://codecanyon.net/item/slider-pro-responsive-wordpress-slider-plugin/253501">Buy the full version for only $30 &rarr;</a></p>
 </div>
