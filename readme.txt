@@ -2,16 +2,14 @@
 Contributors: bqworks
 Tags: slider, images, responsive slider, touch slider, slider plugin
 Requires at least: 3.6
-Tested up to: 5.0
-Stable tag: 1.3
+Tested up to: 5.8
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Fully responsive and touch-enabled slider plugin for WordPress.
 
 == Description ==
-
-https://www.youtube.com/watch?v=X0TVdZNlBjU
 
 Slider Pro is a fully responsive and touch-enabled WordPress slider plugin that allows you to create professional and elegant sliders. This slider plugin was built with user experience in mind, striving to provide a clean and intuitive user interface in the admin area and a smooth navigation experience for the end-users. The lite version of Slider Pro allows you to create simple image sliders which are fully responsive and mobile-friendly.
 
@@ -37,7 +35,7 @@ Available features in the lite version:
 * No ads
 
 
-If you need more features or simply want to support the development of the Slider Pro plugin, you can upgrade to the full version. You can read more about the full version of [Slider Pro](http://bqworks.net/slider-pro/) at [http://bqworks.net/slider-pro/](http://bqworks.net/slider-pro/).
+If you need more features, you can upgrade to the full version, which is now free and available for download at [http://bqworks.net/slider-pro/](http://bqworks.net/slider-pro/).
 
 Additional features in the full version:
 
@@ -57,11 +55,7 @@ Additional features in the full version:
 * Action and filter hooks
 * Import and export sliders
 
-These videos demonstrate the full capabilities of the plugin: 
-
-https://www.youtube.com/watch?v=Hd54x3GMFlA
-
-Check out the [playlist](https://www.youtube.com/playlist?list=PLh-6IaZNuPo4MHvfzrTovXRuU7WKXkfWh) for more videos.
+[These videos](http://bqworks.net/slider-pro/screencasts) demonstrate the full capabilities of the plugin.
 
 == Installation ==
 
@@ -78,17 +72,9 @@ To create sliders:
 
 To publish sliders:
 
-Copy the [sliderpro id="1"] shortcode in the post or page where you want the slider to appear. You can also insert it in PHP code by using <?php do_shortcode( '[sliderpro id="1"]' ); ?>, or in the widgets area by using the built-in Grid Accordion widget.
-
-Short video demonstration:
-
-https://www.youtube.com/watch?v=X0TVdZNlBjU
+Copy the [sliderpro id="1"] shortcode in the post or page where you want the slider to appear. You can also insert it in PHP code by using <?php do_shortcode( '[sliderpro id="1"]' ); ?>, or in the widgets area by using the built-in Slider Pro widget.
 
 == Frequently Asked Questions ==
-
-If you have questions about how to work with the plugin, please see this short video demonstration:
-
-https://www.youtube.com/watch?v=X0TVdZNlBjU
 
 = How can I add links to the images in the slider? =
 
@@ -109,6 +95,11 @@ When you select an image from the Media Library, in the right columns, under 'AT
 3. The preview window in the admin area.
 
 == Changelog ==
+
+= 1.4 =
+* fix styling for sidebar panels
+* update the upgrade text
+* update the website address
 
 = 1.3 =
 * fix compatibility with Gutenberg
