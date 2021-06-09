@@ -1,4 +1,4 @@
-=== Slider Pro ===
+=== Slider Pro Lite ===
 Contributors: bqworks
 Tags: slider, images, responsive slider, touch slider, slider plugin
 Requires at least: 3.6
@@ -11,7 +11,7 @@ Fully responsive and touch-enabled slider plugin for WordPress.
 
 == Description ==
 
-Slider Pro is a fully responsive and touch-enabled WordPress slider plugin that allows you to create professional and elegant sliders. This slider plugin was built with user experience in mind, striving to provide a clean and intuitive user interface in the admin area and a smooth navigation experience for the end-users. The lite version of Slider Pro allows you to create simple image sliders which are fully responsive and mobile-friendly.
+The lite version of Slider Pro allows you to create simple image sliders which are fully responsive and mobile-friendly.
 
 Available features in the lite version:
 
@@ -34,7 +34,6 @@ Available features in the lite version:
 * Localized for translation
 * No ads
 
-
 If you need more features, you can upgrade to the full version, which is now free and available for download at [http://bqworks.net/slider-pro/](http://bqworks.net/slider-pro/).
 
 Additional features in the full version:
@@ -55,7 +54,7 @@ Additional features in the full version:
 * Action and filter hooks
 * Import and export sliders
 
-[These videos](http://bqworks.net/slider-pro/screencasts) demonstrate the full capabilities of the plugin.
+[These videos](http://bqworks.net/slider-pro/screencasts/) demonstrate the full capabilities of the plugin.
 
 == Installation ==
 
