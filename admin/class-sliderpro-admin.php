@@ -273,7 +273,7 @@ class BQW_SliderPro_Lite_Admin {
 		$cache_expiry_interval = get_option( 'sliderpro_cache_expiry_interval', $plugin_settings['cache_expiry_interval']['default_value'] );
 		$access = get_option( 'sliderpro_access', $plugin_settings['access']['default_value'] );
 
-		if ( isset( $_POST['plugin_settings_update'] ) ) {
+		if ( isset( $_POST['plugin_settings_update'] ) && current_user_can( 'customize' ) ) {
 			check_admin_referer( 'plugin-settings-update', 'plugin-settings-nonce' );
 
 			if ( isset( $_POST['load_stylesheets'] ) ) {
@@ -353,7 +353,7 @@ class BQW_SliderPro_Lite_Admin {
 		$id = intval( $slider_data['id'] );
 		$action = $slider_data['action'];
 
-		if ( ! wp_verify_nonce( $nonce, 'save-slider' . $id ) ) {
+		if ( ! wp_verify_nonce( $nonce, 'save-slider' . $id ) || ! current_user_can( 'customize' ) ) {
 			die( 'This action was stopped for security purposes.' );
 		}
 
@@ -474,7 +474,7 @@ class BQW_SliderPro_Lite_Admin {
 		$nonce = $_POST['nonce'];
 		$original_slider_id = $_POST['id'];
 
-		if ( ! wp_verify_nonce( $nonce, 'duplicate-slider' . $original_slider_id ) ) {
+		if ( ! wp_verify_nonce( $nonce, 'duplicate-slider' . $original_slider_id ) || ! current_user_can( 'customize' ) ) {
 			die( 'This action was stopped for security purposes.' );
 		}
 
@@ -506,7 +506,7 @@ class BQW_SliderPro_Lite_Admin {
 		$nonce = $_POST['nonce'];
 		$id = intval( $_POST['id'] );
 
-		if ( ! wp_verify_nonce( $nonce, 'delete-slider' . $id ) ) {
+		if ( ! wp_verify_nonce( $nonce, 'delete-slider' . $id ) || ! current_user_can( 'customize' ) ) {
 			die( 'This action was stopped for security purposes.' );
 		}
 
@@ -604,7 +604,7 @@ class BQW_SliderPro_Lite_Admin {
 	public function ajax_clear_all_cache() {
 		$nonce = $_POST['nonce'];
 
-		if ( ! wp_verify_nonce( $nonce, 'clear-all-cache' ) ) {
+		if ( ! wp_verify_nonce( $nonce, 'clear-all-cache' ) || ! current_user_can( 'customize' ) ) {
 			die( 'This action was stopped for security purposes.' );
 		}
 
