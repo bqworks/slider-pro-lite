@@ -166,8 +166,8 @@ class BQW_SliderPro_Lite_Admin {
 		
 		$this->plugin_screen_hook_suffixes[] = add_submenu_page(
 			$this->plugin_slug,
-			__( 'Slider Pro', $this->plugin_slug ),
-			__( 'All Sliders', $this->plugin_slug ),
+			__( 'Slider Pro', 'sliderpro-lite' ),
+			__( 'All Sliders', 'sliderpro-lite' ),
 			$access,
 			$this->plugin_slug,
 			array( $this, 'render_slider_page' )
@@ -175,8 +175,8 @@ class BQW_SliderPro_Lite_Admin {
 	
 		$this->plugin_screen_hook_suffixes[] = add_submenu_page(
 			$this->plugin_slug,
-			__( 'Add New Slider', $this->plugin_slug ),
-			__( 'Add New', $this->plugin_slug ),
+			__( 'Add New Slider', 'sliderpro-lite' ),
+			__( 'Add New', 'sliderpro-lite' ),
 			$access,
 			$this->plugin_slug . '-new',
 			array( $this, 'render_new_slider_page' )
@@ -184,8 +184,8 @@ class BQW_SliderPro_Lite_Admin {
 
 		$this->plugin_screen_hook_suffixes[] = add_submenu_page(
 			$this->plugin_slug,
-			__( 'Plugin Settings', $this->plugin_slug ),
-			__( 'Plugin Settings', $this->plugin_slug ),
+			__( 'Plugin Settings', 'sliderpro-lite' ),
+			__( 'Plugin Settings', 'sliderpro-lite' ),
 			$access,
 			$this->plugin_slug . '-settings',
 			array( $this, 'render_plugin_settings_page' )
@@ -193,8 +193,8 @@ class BQW_SliderPro_Lite_Admin {
 
 		$this->plugin_screen_hook_suffixes[] = add_submenu_page(
 			$this->plugin_slug,
-			__( 'Upgrade', $this->plugin_slug ),
-			__( 'Upgrade', $this->plugin_slug ),
+			__( 'Upgrade', 'sliderpro-lite' ),
+			__( 'Upgrade', 'sliderpro-lite' ),
 			$access,
 			$this->plugin_slug . '-ugrade',
 			array( $this, 'render_upgrade_page' )
