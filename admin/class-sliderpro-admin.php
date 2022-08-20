@@ -610,7 +610,7 @@ class BQW_SliderPro_Lite_Admin {
 
 		global $wpdb;
 
-		$wpdb->query( "DELETE FROM " . $wpdb->prefix . "options WHERE option_name LIKE '%sliderpro_cache%'" );
+		$wpdb->query( "DELETE FROM " . $wpdb->prefix . "options WHERE option_name LIKE '%sliderpro_cache_%' AND NOT option_name = 'sliderpro_cache_expiry_interval'" );
 
 		echo true;
 
