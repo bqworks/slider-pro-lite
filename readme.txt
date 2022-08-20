@@ -34,7 +34,7 @@ Available features in the lite version:
 * Localized for translation
 * No ads
 
-If you need more features, you can upgrade to the full version, which is now free and available for download at [http://bqworks.net/slider-pro/](http://bqworks.net/slider-pro/).
+If you need more features, you can upgrade to the full version, which is now free and available for download at [https://bqworks.net/slider-pro/](https://bqworks.net/slider-pro/).
 
 Additional features in the full version:
 
@@ -54,7 +54,7 @@ Additional features in the full version:
 * Action and filter hooks
 * Import and export sliders
 
-[These videos](http://bqworks.net/slider-pro/screencasts/) demonstrate the full capabilities of the plugin.
+[These videos](https://bqworks.net/slider-pro/screencasts/) demonstrate the full capabilities of the plugin.
 
 == Installation ==
 

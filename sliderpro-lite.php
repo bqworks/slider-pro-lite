@@ -6,7 +6,7 @@
 	Description: Elegant and professional sliders. The lite version.
 	Version:     1.4.0
 	Author:      bqworks
-	Author URI:  http://bqworks.net
+	Author URI:  https://bqworks.net
 */
 
 // if the file is called directly, abort

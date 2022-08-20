@@ -1,6 +1,6 @@
 <div class="wrap sliderpro-admin sliderpro-upgrade">
 	<h2><?php _e( 'Upgrade to Full Version', 'slider-pro-lite' ); ?></h2>
-    <p>If you need more features, you can upgrade to the full version, which is now free and available for download at <a href="http://bqworks.net/slider-pro/">http://bqworks.net/slider-pro/</a>.</p>
+    <p>If you need more features, you can upgrade to the full version, which is now free and available for download at <a href="https://bqworks.net/slider-pro/">https://bqworks.net/slider-pro/</a>.</p>
     
     <p>Some of the features available in the full version are:</p>
     <ul>
