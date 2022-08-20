@@ -15,9 +15,9 @@
 	<td><?php echo $slider_created; ?></td>
 	<td><?php echo $slider_modified; ?></td>
 	<td>
-		<a href="<?php echo $edit_url; ?>"><?php _e( 'Edit', 'sliderpro-lite' ); ?></a> |
-		<a class="preview-slider" href="<?php echo $preview_url; ?>"><?php _e( 'Preview', 'sliderpro-lite' ); ?></a> |
-		<a class="delete-slider" href="<?php echo $delete_url; ?>"><?php _e( 'Delete', 'sliderpro-lite' ); ?></a> |
-		<a class="duplicate-slider" href="<?php echo $duplicate_url; ?>"><?php _e( 'Duplicate', 'sliderpro-lite' ); ?></a>
+		<a href="<?php echo $edit_url; ?>"><?php _e( 'Edit', 'slider-pro-lite' ); ?></a> |
+		<a class="preview-slider" href="<?php echo $preview_url; ?>"><?php _e( 'Preview', 'slider-pro-lite' ); ?></a> |
+		<a class="delete-slider" href="<?php echo $delete_url; ?>"><?php _e( 'Delete', 'slider-pro-lite' ); ?></a> |
+		<a class="duplicate-slider" href="<?php echo $duplicate_url; ?>"><?php _e( 'Duplicate', 'slider-pro-lite' ); ?></a>
 	</td>
 </tr>

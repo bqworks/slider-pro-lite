@@ -90,193 +90,193 @@ class BQW_SliderPro_Lite_Settings {
 			self::$settings = array(
 				'width' => array(
 					'js_name' => 'width',
-					'label' => __( 'Width', 'sliderpro-lite' ),
+					'label' => __( 'Width', 'slider-pro-lite' ),
 					'type' => 'number',
 					'default_value' => 500,
-					'description' => __( 'Sets the width of the slide. Can be set to a fixed value, like 900 (indicating 900 pixels), or to a percentage value, like \'100%\'.', 'sliderpro-lite' )
+					'description' => __( 'Sets the width of the slide. Can be set to a fixed value, like 900 (indicating 900 pixels), or to a percentage value, like \'100%\'.', 'slider-pro-lite' )
 				),
 
 				'height' => array(
 					'js_name' => 'height',
-					'label' => __( 'Height', 'sliderpro-lite' ),
+					'label' => __( 'Height', 'slider-pro-lite' ),
 					'type' => 'number',
 					'default_value' => 300,
-					'description' => __( 'Sets the height of the slide. Can be set to a fixed value, like 900 (indicating 900 pixels), or to a percentage value, like \'100%\'.', 'sliderpro-lite' )
+					'description' => __( 'Sets the height of the slide. Can be set to a fixed value, like 900 (indicating 900 pixels), or to a percentage value, like \'100%\'.', 'slider-pro-lite' )
 				),
 
 				'responsive' => array(
 					'js_name' => 'responsive',
-					'label' => __( 'Responsive', 'sliderpro-lite' ),
+					'label' => __( 'Responsive', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => true,
-					'description' => __( 'Makes the slider responsive. The slider can be responsive even if the \'width\' and/or \'height\' properties are set to fixed values. In this situation, \'width\' and \'height\' will act as the maximum width and height of the slides.', 'sliderpro-lite' )
+					'description' => __( 'Makes the slider responsive. The slider can be responsive even if the \'width\' and/or \'height\' properties are set to fixed values. In this situation, \'width\' and \'height\' will act as the maximum width and height of the slides.', 'slider-pro-lite' )
 				),
 
 				'aspect_ratio' => array(
 					'js_name' => 'aspectRatio',
-					'label' => __( 'Aspect Ratio', 'sliderpro-lite' ),
+					'label' => __( 'Aspect Ratio', 'slider-pro-lite' ),
 					'type' => 'number',
 					'default_value' => -1,
-					'description' => __( 'Sets the aspect ratio of the slides. If set to a value different than -1, the height of the slides will be overridden in order to maintain the specified aspect ratio.', 'sliderpro-lite' )
+					'description' => __( 'Sets the aspect ratio of the slides. If set to a value different than -1, the height of the slides will be overridden in order to maintain the specified aspect ratio.', 'slider-pro-lite' )
 				),
 
 				'image_scale_mode' => array(
 					'js_name' => 'imageScaleMode',
-					'label' => __( 'Image Scale Mode', 'sliderpro-lite' ),
+					'label' => __( 'Image Scale Mode', 'slider-pro-lite' ),
 					'type' => 'select',
 					'default_value' => 'cover',
 					'available_values' => array(
-						'cover' => __( 'Cover', 'sliderpro-lite' ),
-						'contain' => __( 'Contain', 'sliderpro-lite' ),
-						'exact' => __( 'Exact', 'sliderpro-lite' ),
-						'none' => __( 'None', 'sliderpro-lite' )
+						'cover' => __( 'Cover', 'slider-pro-lite' ),
+						'contain' => __( 'Contain', 'slider-pro-lite' ),
+						'exact' => __( 'Exact', 'slider-pro-lite' ),
+						'none' => __( 'None', 'slider-pro-lite' )
 					),
-					'description' => __( 'Sets the scale mode of the main slide images. <i>Cover</i> will scale and crop the image so that it fills the entire slide. <i>Contain</i> will keep the entire image visible inside the slide. <i>Exact</i> will match the size of the image to the size of the slide. <i>None</i> will leave the image to its original size.', 'sliderpro-lite' )
+					'description' => __( 'Sets the scale mode of the main slide images. <i>Cover</i> will scale and crop the image so that it fills the entire slide. <i>Contain</i> will keep the entire image visible inside the slide. <i>Exact</i> will match the size of the image to the size of the slide. <i>None</i> will leave the image to its original size.', 'slider-pro-lite' )
 				),
 
 				'center_image' => array(
 					'js_name' => 'centerImage',
-					'label' => __( 'Center Image', 'sliderpro-lite' ),
+					'label' => __( 'Center Image', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => true,
-					'description' => __( 'Indicates if the image will be centered.', 'sliderpro-lite' )
+					'description' => __( 'Indicates if the image will be centered.', 'slider-pro-lite' )
 				),
 
 				'start_slide' => array(
 					'js_name' => 'startSlide',
-					'label' => __( 'Start Slide', 'sliderpro-lite' ),
+					'label' => __( 'Start Slide', 'slider-pro-lite' ),
 					'type' => 'number',
 					'default_value' => 0,
-					'description' => __( 'Sets the slide that will be selected when the slider loads.', 'sliderpro-lite' )
+					'description' => __( 'Sets the slide that will be selected when the slider loads.', 'slider-pro-lite' )
 				),
 
 				'slide_distance' => array(
 					'js_name' => 'slideDistance',
-					'label' => __( 'Slide Distance', 'sliderpro-lite' ),
+					'label' => __( 'Slide Distance', 'slider-pro-lite' ),
 					'type' => 'number',
 					'default_value' => 10,
-					'description' => __( 'Sets the distance between the slides.', 'sliderpro-lite' )
+					'description' => __( 'Sets the distance between the slides.', 'slider-pro-lite' )
 				),
 
 				'slide_animation_duration' => array(
 					'js_name' => 'slideAnimationDuration',
-					'label' => __( 'Slide Animation Duration', 'sliderpro-lite' ),
+					'label' => __( 'Slide Animation Duration', 'slider-pro-lite' ),
 					'type' => 'number',
 					'default_value' => 700,
-					'description' => __( 'Sets the duration of the slide animation.', 'sliderpro-lite' )
+					'description' => __( 'Sets the duration of the slide animation.', 'slider-pro-lite' )
 				),
 
 				'autoplay' => array(
 					'js_name' => 'autoplay',
-					'label' => __( 'Autoplay', 'sliderpro-lite' ),
+					'label' => __( 'Autoplay', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => true,
-					'description' => __( 'Indicates whether or not autoplay will be enabled.', 'sliderpro-lite' )
+					'description' => __( 'Indicates whether or not autoplay will be enabled.', 'slider-pro-lite' )
 				),
 
 				'autoplay_delay' => array(
 					'js_name' => 'autoplayDelay',
-					'label' => __( 'Autoplay Delay', 'sliderpro-lite' ),
+					'label' => __( 'Autoplay Delay', 'slider-pro-lite' ),
 					'type' => 'number',
 					'default_value' => 5000,
-					'description' => __( 'Sets the delay/interval (in milliseconds) at which the autoplay will run.', 'sliderpro-lite' )
+					'description' => __( 'Sets the delay/interval (in milliseconds) at which the autoplay will run.', 'slider-pro-lite' )
 				),
 
 				'autoplay_direction' => array(
 					'js_name' => 'autoplayDirection',
-					'label' => __( 'Autoplay Direction', 'sliderpro-lite' ),
+					'label' => __( 'Autoplay Direction', 'slider-pro-lite' ),
 					'type' => 'select',
 					'default_value' => 'normal',
 					'available_values' => array(
-						'normal' => __( 'Normal', 'sliderpro-lite' ),
-						'backwards' => __( 'Backwards', 'sliderpro-lite' )
+						'normal' => __( 'Normal', 'slider-pro-lite' ),
+						'backwards' => __( 'Backwards', 'slider-pro-lite' )
 					),
-					'description' => __( 'Indicates whether autoplay will navigate to the next slide or previous slide.', 'sliderpro-lite' )
+					'description' => __( 'Indicates whether autoplay will navigate to the next slide or previous slide.', 'slider-pro-lite' )
 				),
 
 				'autoplay_on_hover' => array(
 					'js_name' => 'autoplayOnHover',
-					'label' => __( 'Autoplay On Hover', 'sliderpro-lite' ),
+					'label' => __( 'Autoplay On Hover', 'slider-pro-lite' ),
 					'type' => 'select',
 					'default_value' => 'pause',
 					'available_values' => array(
-						'pause' => __( 'Pause', 'sliderpro-lite' ),
-						'stop' => __( 'Stop', 'sliderpro-lite' ),
-						'none' => __( 'None', 'sliderpro-lite' )
+						'pause' => __( 'Pause', 'slider-pro-lite' ),
+						'stop' => __( 'Stop', 'slider-pro-lite' ),
+						'none' => __( 'None', 'slider-pro-lite' )
 					),
-					'description' => __( 'Indicates if the autoplay will be paused or stopped when the slider is hovered.', 'sliderpro-lite' )
+					'description' => __( 'Indicates if the autoplay will be paused or stopped when the slider is hovered.', 'slider-pro-lite' )
 				),
 
 				'arrows' => array(
 					'js_name' => 'arrows',
-					'label' => __( 'Arrows', 'sliderpro-lite' ),
+					'label' => __( 'Arrows', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => false,
-					'description' => __( 'Indicates whether the arrow buttons will be created.', 'sliderpro-lite' )
+					'description' => __( 'Indicates whether the arrow buttons will be created.', 'slider-pro-lite' )
 				),
 
 				'fade_arrows' => array(
 					'js_name' => 'fadeArrows',
-					'label' => __( 'Fade Arrows', 'sliderpro-lite' ),
+					'label' => __( 'Fade Arrows', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => true,
-					'description' => __( 'Indicates whether the arrows will fade in only on hover.', 'sliderpro-lite' )
+					'description' => __( 'Indicates whether the arrows will fade in only on hover.', 'slider-pro-lite' )
 				),
 
 				'buttons' => array(
 					'js_name' => 'buttons',
-					'label' => __( 'Buttons', 'sliderpro-lite' ),
+					'label' => __( 'Buttons', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => true,
-					'description' => __( 'Indicates whether the buttons will be created.', 'sliderpro-lite' )
+					'description' => __( 'Indicates whether the buttons will be created.', 'slider-pro-lite' )
 				),
 
 				'keyboard' => array(
 					'js_name' => 'keyboard',
-					'label' => __( 'Keyboard', 'sliderpro-lite' ),
+					'label' => __( 'Keyboard', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => true,
-					'description' => __( 'Indicates whether keyboard navigation will be enabled.', 'sliderpro-lite' )
+					'description' => __( 'Indicates whether keyboard navigation will be enabled.', 'slider-pro-lite' )
 				),
 
 				'keyboard_only_on_focus' => array(
 					'js_name' => 'keyboardOnlyOnFocus',
-					'label' => __( 'Keyboard Only On Focus', 'sliderpro-lite' ),
+					'label' => __( 'Keyboard Only On Focus', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => false,
-					'description' => __( 'Indicates whether the slider will respond to keyboard input only when the slider is in focus.', 'sliderpro-lite' )
+					'description' => __( 'Indicates whether the slider will respond to keyboard input only when the slider is in focus.', 'slider-pro-lite' )
 				),
 
 				'touch_swipe' => array(
 					'js_name' => 'touchSwipe',
-					'label' => __( 'Touch Swipe', 'sliderpro-lite' ),
+					'label' => __( 'Touch Swipe', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => true,
-					'description' => __( 'Indicates whether the touch swipe will be enabled for slides.', 'sliderpro-lite' )
+					'description' => __( 'Indicates whether the touch swipe will be enabled for slides.', 'slider-pro-lite' )
 				),
 
 				'touch_swipe_threshold' => array(
 					'js_name' => 'touchSwipeThreshold',
-					'label' => __( 'Touch Swipe Threshold', 'sliderpro-lite' ),
+					'label' => __( 'Touch Swipe Threshold', 'slider-pro-lite' ),
 					'type' => 'number',
 					'default_value' => 50,
-					'description' => __( 'Sets the minimum amount that the slides should move.', 'sliderpro-lite' )
+					'description' => __( 'Sets the minimum amount that the slides should move.', 'slider-pro-lite' )
 				),
 
 				'fade_caption' => array(
 					'js_name' => 'fadeCaption',
-					'label' => __( 'Fade Caption', 'sliderpro-lite' ),
+					'label' => __( 'Fade Caption', 'slider-pro-lite' ),
 					'type' => 'boolean',
 					'default_value' => true,
-					'description' => __( 'Indicates whether or not the captions will be faded.', 'sliderpro-lite' )
+					'description' => __( 'Indicates whether or not the captions will be faded.', 'slider-pro-lite' )
 				),
 
 				'caption_fade_duration' => array(
 					'js_name' => 'captionFadeDuration',
-					'label' => __( 'Caption Fade Duration', 'sliderpro-lite' ),
+					'label' => __( 'Caption Fade Duration', 'slider-pro-lite' ),
 					'type' => 'number',
 					'default_value' => 500,
-					'description' => __( 'Sets the duration of the fade animation.', 'sliderpro-lite' )
+					'description' => __( 'Sets the duration of the fade animation.', 'slider-pro-lite' )
 				)
 			);
 
@@ -301,7 +301,7 @@ class BQW_SliderPro_Lite_Settings {
 		if ( empty( self::$setting_groups ) ) {
 			self::$setting_groups = array(
 				'appearance' => array(
-					'label' => __( 'Appearance', 'sliderpro-lite' ),
+					'label' => __( 'Appearance', 'slider-pro-lite' ),
 					'list' => array(
 						'width',
 						'height',
@@ -315,14 +315,14 @@ class BQW_SliderPro_Lite_Settings {
 				),
 
 				'animations' => array(
-					'label' => __( 'Animations', 'sliderpro-lite' ),
+					'label' => __( 'Animations', 'slider-pro-lite' ),
 					'list' => array(
 						'slide_animation_duration'
 					)
 				),
 						
 				'navigation' => array(
-					'label' => __( 'Navigation', 'sliderpro-lite' ),
+					'label' => __( 'Navigation', 'slider-pro-lite' ),
 					'list' => array(
 						'autoplay',
 						'autoplay_delay',
@@ -339,7 +339,7 @@ class BQW_SliderPro_Lite_Settings {
 				),
 				
 				'captions' => array(
-					'label' => __( 'Captions', 'sliderpro-lite' ),
+					'label' => __( 'Captions', 'slider-pro-lite' ),
 					'list' => array(
 						'fade_caption',
 						'caption_fade_duration'
@@ -373,30 +373,30 @@ class BQW_SliderPro_Lite_Settings {
 		if ( empty( self::$plugin_settings ) ) {
 			self::$plugin_settings = array(
 				'load_stylesheets' => array(
-					'label' => __( 'Load stylesheets', 'sliderpro-lite' ),
+					'label' => __( 'Load stylesheets', 'slider-pro-lite' ),
 					'default_value' => 'automatically',
 					'available_values' => array(
-						'automatically' => __( 'Automatically', 'sliderpro-lite' ),
-						'homepage' => __( 'On homepage', 'sliderpro-lite' ),
-						'all' => __( 'On all pages', 'sliderpro-lite' )
+						'automatically' => __( 'Automatically', 'slider-pro-lite' ),
+						'homepage' => __( 'On homepage', 'slider-pro-lite' ),
+						'all' => __( 'On all pages', 'slider-pro-lite' )
 					),
-					'description' => __( 'The plugin can detect the presence of the slider in a post, page or widget, and will automatically load the necessary stylesheets. However, when the slider is loaded in PHP code, like in the theme\'s header or another template file, you need to manually specify where the stylesheets should load. If you load the slider only on the homepage, select <i>On homepage</i>, or if you load it in the header or another section that is visible on multiple pages, select <i>On all pages</i>.' , 'sliderpro-lite' )
+					'description' => __( 'The plugin can detect the presence of the slider in a post, page or widget, and will automatically load the necessary stylesheets. However, when the slider is loaded in PHP code, like in the theme\'s header or another template file, you need to manually specify where the stylesheets should load. If you load the slider only on the homepage, select <i>On homepage</i>, or if you load it in the header or another section that is visible on multiple pages, select <i>On all pages</i>.' , 'slider-pro-lite' )
 				),
 				'cache_expiry_interval' => array(
-					'label' => __( 'Cache expiry interval', 'sliderpro-lite' ),
+					'label' => __( 'Cache expiry interval', 'slider-pro-lite' ),
 					'default_value' => 24,
-					'description' => __( 'Indicates the time interval after which a slider\'s cache will expire. If the cache of a slider has expired, the slider will be rendered again and cached the next time it is viewed.', 'sliderpro-lite' )
+					'description' => __( 'Indicates the time interval after which a slider\'s cache will expire. If the cache of a slider has expired, the slider will be rendered again and cached the next time it is viewed.', 'slider-pro-lite' )
 				),
 				'access' => array(
-					'label' => __( 'Access', 'sliderpro-lite' ),
+					'label' => __( 'Access', 'slider-pro-lite' ),
 					'default_value' => 'manage_options',
 					'available_values' => array(
-						'manage_options' => __( 'Administrator', 'sliderpro-lite' ),
+						'manage_options' => __( 'Administrator', 'slider-pro-lite' ),
 						'publish_pages' => __( 'Editor', 'sliderpro '),
-						'publish_posts' => __( 'Author', 'sliderpro-lite' ),
-						'edit_posts' => __( 'Contributor', 'sliderpro-lite' )
+						'publish_posts' => __( 'Author', 'slider-pro-lite' ),
+						'edit_posts' => __( 'Contributor', 'slider-pro-lite' )
 					),
-					'description' => __( 'Sets what category of users will have access to the plugin\'s admin area.', 'sliderpro-lite' )
+					'description' => __( 'Sets what category of users will have access to the plugin\'s admin area.', 'slider-pro-lite' )
 				)
 			);
 		}

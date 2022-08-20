@@ -1,5 +1,5 @@
 <div class="wrap sliderpro-admin plugin-settings">
-	<h2><?php _e( 'Plugin Settings', 'sliderpro-lite' ); ?></h2>
+	<h2><?php _e( 'Plugin Settings', 'slider-pro-lite' ); ?></h2>
 
 	<form action="" method="post">
         <?php wp_nonce_field( 'plugin-settings-update', 'plugin-settings-nonce' ); ?>
@@ -32,7 +32,7 @@
                 </td>
                 <td>
                     <p><?php echo $plugin_settings['cache_expiry_interval']['description']; ?></p>
-                    <a class="button-secondary clear-all-cache" data-nonce="<?php echo wp_create_nonce( 'clear-all-cache' ); ?>"><?php _e( 'Clear all cache now', 'sliderpro-lite' ); ?></a>
+                    <a class="button-secondary clear-all-cache" data-nonce="<?php echo wp_create_nonce( 'clear-all-cache' ); ?>"><?php _e( 'Clear all cache now', 'slider-pro-lite' ); ?></a>
                     <span class="spinner clear-cache-spinner"></span>
                 </td>
             </tr>

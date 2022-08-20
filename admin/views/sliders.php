@@ -4,12 +4,12 @@
 	<table class="widefat sliders-list">
 	<thead>
 	<tr>
-		<th><?php _e( 'ID', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Name', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Shortcode', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Created', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Modified', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Actions', 'sliderpro-lite' ); ?></th>
+		<th><?php _e( 'ID', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Name', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Shortcode', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Created', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Modified', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Actions', 'slider-pro-lite' ); ?></th>
 	</tr>
 	</thead>
 	
@@ -23,7 +23,7 @@
 		
 		if ( count( $sliders ) === 0 ) {
 			echo '<tr class="no-slider-row">' .
-					 '<td colspan="100%">' . __( 'You don\'t have saved sliders.', 'sliderpro-lite' ) . '</td>' .
+					 '<td colspan="100%">' . __( 'You don\'t have saved sliders.', 'slider-pro-lite' ) . '</td>' .
 				 '</tr>';
 		} else {
 			foreach ( $sliders as $slider ) {
@@ -41,18 +41,18 @@
 	
 	<tfoot>
 	<tr>
-		<th><?php _e( 'ID', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Name', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Shortcode', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Created', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Modified', 'sliderpro-lite' ); ?></th>
-		<th><?php _e( 'Actions', 'sliderpro-lite' ); ?></th>
+		<th><?php _e( 'ID', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Name', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Shortcode', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Created', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Modified', 'slider-pro-lite' ); ?></th>
+		<th><?php _e( 'Actions', 'slider-pro-lite' ); ?></th>
 	</tr>
 	</tfoot>
 	</table>
     
     <div class="new-slider-buttons">    
-		<a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=sliderpro-lite-new' ); ?>"><?php _e( 'Create New Slider', 'sliderpro-lite' ); ?></a>
+		<a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=sliderpro-lite-new' ); ?>"><?php _e( 'Create New Slider', 'slider-pro-lite' ); ?></a>
     </div>    
     
 </div>

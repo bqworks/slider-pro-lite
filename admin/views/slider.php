@@ -1,5 +1,5 @@
 <div class="wrap sliderpro-admin">
-	<h2><?php echo isset( $_GET['action'] ) && $_GET['action'] === 'edit' ? __( 'Edit Slider', 'sliderpro-lite' ) : __( 'Add New Slider', 'sliderpro-lite' ); ?></h2>
+	<h2><?php echo isset( $_GET['action'] ) && $_GET['action'] === 'edit' ? __( 'Edit Slider', 'slider-pro-lite' ) : __( 'Add New Slider', 'slider-pro-lite' ); ?></h2>
 
 	<form action="" method="post">
     	<div class="metabox-holder has-right-sidebar">
@@ -10,8 +10,8 @@
                     </div>
 					
                     <div class="image-size-warning">
-                        <p><?php _e( 'Some of the main slide images are smaller than the size of the slide (determined by the <i>Width</i> and <i>Height</i> options), so they might appear blurred when viewed in the slider.', 'sliderpro-lite' ); ?></p>
-                        <p><?php _e( 'When you select images to insert them into the slider, you can set their size from the right column of the Media Library window, as you can see in <a href="https://www.youtube.com/watch?v=Hd54x3GMFlA" target="_blank">this video</a> at 0:05.', 'sliderpro-lite' ); ?></p>
+                        <p><?php _e( 'Some of the main slide images are smaller than the size of the slide (determined by the <i>Width</i> and <i>Height</i> options), so they might appear blurred when viewed in the slider.', 'slider-pro-lite' ); ?></p>
+                        <p><?php _e( 'When you select images to insert them into the slider, you can set their size from the right column of the Media Library window, as you can see in <a href="https://www.youtube.com/watch?v=Hd54x3GMFlA" target="_blank">this video</a> at 0:05.', 'slider-pro-lite' ); ?></p>
                     </div>
 
 					<div class="slides-container">
@@ -28,16 +28,16 @@
 	                    ?>
                     </div>
 
-                    <a class="button add-slide" href="#"><?php _e( 'Add Slides', 'sliderpro-lite' ); ?></a>
+                    <a class="button add-slide" href="#"><?php _e( 'Add Slides', 'slider-pro-lite' ); ?></a>
                 </div>
             </div>
 
             <div class="inner-sidebar meta-box-sortables ui-sortable">
 				<div class="postbox action">
 					<div class="inside">
-						<input type="submit" name="submit" class="button-primary" value="<?php echo isset( $_GET['action'] ) && $_GET['action'] === 'edit' ? __( 'Update', 'sliderpro-lite' ) : __( 'Create', 'sliderpro-lite' ); ?>" />
+						<input type="submit" name="submit" class="button-primary" value="<?php echo isset( $_GET['action'] ) && $_GET['action'] === 'edit' ? __( 'Update', 'slider-pro-lite' ) : __( 'Create', 'slider-pro-lite' ); ?>" />
                         <span class="spinner update-spinner"></span>
-						<a class="button preview-slider" href="#"><?php _e( 'Preview', 'sliderpro-lite' ); ?></a>
+						<a class="button preview-slider" href="#"><?php _e( 'Preview', 'slider-pro-lite' ); ?></a>
                         <span class="spinner preview-spinner"></span>
 					</div>
 				</div>
